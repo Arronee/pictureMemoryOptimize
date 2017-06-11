@@ -14,6 +14,8 @@
 		D8B3BBF01EEC2C5400BB153C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B3BBEE1EEC2C5400BB153C /* Main.storyboard */; };
 		D8B3BBF21EEC2C5400BB153C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B3BBF11EEC2C5400BB153C /* Assets.xcassets */; };
 		D8B3BBF51EEC2C5400BB153C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B3BBF31EEC2C5400BB153C /* LaunchScreen.storyboard */; };
+		D8B3BBFF1EECEA2E00BB153C /* picCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3BBFD1EECEA2E00BB153C /* picCollectionViewCell.m */; };
+		D8B3BC001EECEA2E00BB153C /* picCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B3BBFE1EECEA2E00BB153C /* picCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		D8B3BBF11EEC2C5400BB153C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B3BBF41EEC2C5400BB153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B3BBF61EEC2C5400BB153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B3BBFC1EECEA2E00BB153C /* picCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picCollectionViewCell.h; sourceTree = "<group>"; };
+		D8B3BBFD1EECEA2E00BB153C /* picCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = picCollectionViewCell.m; sourceTree = "<group>"; };
+		D8B3BBFE1EECEA2E00BB153C /* picCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = picCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				D8B3BBE91EEC2C5400BB153C /* AppDelegate.m */,
 				D8B3BBEB1EEC2C5400BB153C /* ViewController.h */,
 				D8B3BBEC1EEC2C5400BB153C /* ViewController.m */,
+				D8B3BBFC1EECEA2E00BB153C /* picCollectionViewCell.h */,
+				D8B3BBFD1EECEA2E00BB153C /* picCollectionViewCell.m */,
+				D8B3BBFE1EECEA2E00BB153C /* picCollectionViewCell.xib */,
 				D8B3BBEE1EEC2C5400BB153C /* Main.storyboard */,
 				D8B3BBF11EEC2C5400BB153C /* Assets.xcassets */,
 				D8B3BBF31EEC2C5400BB153C /* LaunchScreen.storyboard */,
@@ -165,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B3BBF51EEC2C5400BB153C /* LaunchScreen.storyboard in Resources */,
+				D8B3BC001EECEA2E00BB153C /* picCollectionViewCell.xib in Resources */,
 				D8B3BBF21EEC2C5400BB153C /* Assets.xcassets in Resources */,
 				D8B3BBF01EEC2C5400BB153C /* Main.storyboard in Resources */,
 			);
@@ -226,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B3BBED1EEC2C5400BB153C /* ViewController.m in Sources */,
+				D8B3BBFF1EECEA2E00BB153C /* picCollectionViewCell.m in Sources */,
 				D8B3BBEA1EEC2C5400BB153C /* AppDelegate.m in Sources */,
 				D8B3BBE71EEC2C5400BB153C /* main.m in Sources */,
 			);
@@ -388,6 +398,7 @@
 				D8B3BBFB1EEC2C5400BB153C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
